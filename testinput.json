@@ -1,0 +1,141 @@
+{
+  "scenarios": [
+    {
+      "name": "Normal Case – 10 Diverse Agents",
+      "siteKitty": 12345,
+      "salesAgents": [
+        {
+          "id": "A1",
+          "performanceScore": 95,
+          "seniorityMonths": 24,
+          "targetAchievedPercent": 92,
+          "activeClients": 15
+        },
+        {
+          "id": "A2",
+          "performanceScore": 88,
+          "seniorityMonths": 18,
+          "targetAchievedPercent": 85,
+          "activeClients": 12
+        },
+        {
+          "id": "A3",
+          "performanceScore": 76,
+          "seniorityMonths": 12,
+          "targetAchievedPercent": 80,
+          "activeClients": 10
+        },
+        {
+          "id": "A4",
+          "performanceScore": 65,
+          "seniorityMonths": 8,
+          "targetAchievedPercent": 70,
+          "activeClients": 8
+        },
+        {
+          "id": "A5",
+          "performanceScore": 54,
+          "seniorityMonths": 6,
+          "targetAchievedPercent": 60,
+          "activeClients": 7
+        },
+        {
+          "id": "A6",
+          "performanceScore": 43,
+          "seniorityMonths": 4,
+          "targetAchievedPercent": 50,
+          "activeClients": 5
+        },
+        {
+          "id": "A7",
+          "performanceScore": 32,
+          "seniorityMonths": 3,
+          "targetAchievedPercent": 40,
+          "activeClients": 4
+        },
+        {
+          "id": "A8",
+          "performanceScore": 21,
+          "seniorityMonths": 2,
+          "targetAchievedPercent": 30,
+          "activeClients": 3
+        },
+        {
+          "id": "A9",
+          "performanceScore": 10,
+          "seniorityMonths": 1,
+          "targetAchievedPercent": 20,
+          "activeClients": 2
+        },
+        {
+          "id": "A10",
+          "performanceScore": 5,
+          "seniorityMonths": 1,
+          "targetAchievedPercent": 10,
+          "activeClients": 1
+        }
+      ]
+    },
+    {
+      "name": "All-Same Scores Case – 5 Identical Agents",
+      "siteKitty": 999,
+      "salesAgents": [
+        {
+          "id": "B1",
+          "performanceScore": 50,
+          "seniorityMonths": 10,
+          "targetAchievedPercent": 50,
+          "activeClients": 5
+        },
+        {
+          "id": "B2",
+          "performanceScore": 50,
+          "seniorityMonths": 10,
+          "targetAchievedPercent": 50,
+          "activeClients": 5
+        },
+        {
+          "id": "B3",
+          "performanceScore": 50,
+          "seniorityMonths": 10,
+          "targetAchievedPercent": 50,
+          "activeClients": 5
+        },
+        {
+          "id": "B4",
+          "performanceScore": 50,
+          "seniorityMonths": 10,
+          "targetAchievedPercent": 50,
+          "activeClients": 5
+        },
+        {
+          "id": "B5",
+          "performanceScore": 50,
+          "seniorityMonths": 10,
+          "targetAchievedPercent": 50,
+          "activeClients": 5
+        }
+      ]
+    },
+    {
+      "name": "Rounding Edge Case – 2 Agents, Small Kitty",
+      "siteKitty": 5,
+      "salesAgents": [
+        {
+          "id": "C1",
+          "performanceScore": 1,
+          "seniorityMonths": 1,
+          "targetAchievedPercent": 1,
+          "activeClients": 1
+        },
+        {
+          "id": "C2",
+          "performanceScore": 0,
+          "seniorityMonths": 0,
+          "targetAchievedPercent": 0,
+          "activeClients": 0
+        }
+      ]
+    }
+  ]
+}

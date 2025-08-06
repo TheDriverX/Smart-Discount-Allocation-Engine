@@ -1,0 +1,47 @@
+{
+  "siteKitty": 10000,
+  "salesAgents": [
+    {
+      "id": "EMP101",
+      "performanceScore": 88,
+      "seniorityMonths": 20,
+      "targetAchievedPercent": 83,
+      "activeClients": 14
+    },
+    {
+      "id": "EMP102",
+      "performanceScore": 68,
+      "seniorityMonths": 7,
+      "targetAchievedPercent": 58,
+      "activeClients": 9
+    },
+    {
+      "id": "EMP103",
+      "performanceScore": 52,
+      "seniorityMonths": 10,
+      "targetAchievedPercent": 43,
+      "activeClients": 6
+    },
+    {
+      "id": "EMP104",
+      "performanceScore": 75,
+      "seniorityMonths": 15,
+      "targetAchievedPercent": 72,
+      "activeClients": 11
+    },
+    {
+      "id": "EMP105",
+      "performanceScore": 40,
+      "seniorityMonths": 5,
+      "targetAchievedPercent": 35,
+      "activeClients": 4
+    },
+    {
+      "id": "EMP106",
+      "performanceScore": 61,
+      "seniorityMonths": 9,
+      "targetAchievedPercent": 65,
+      "activeClients": 7
+    }
+  ]
+}

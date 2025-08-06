@@ -1,0 +1,12 @@
+{
+  "weights": {
+    "performanceScore": 1.0,
+    "seniorityMonths": 0.5,
+    "targetAchievedPercent": 0.8,
+    "activeClients": 0.7
+  },
+  "min_allocation_percent": 0.05,
+  "max_allocation_percent": 0.5,
+  "use_base_allocation": true,
+  "base_allocation_percent": 0.1
+}
